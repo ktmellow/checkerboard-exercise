@@ -9,7 +9,6 @@ for (var i=0; i < allTiles.length; i++) {
   } else {
     allTiles[i].style.backgroundColor = "red";
   }
-  allTiles[i].style.backgroundColor = getRandomColor();
   allTiles[i].style.width = "11.1%";
   allTiles[i].style.paddingBottom = "11.1%";
   allTiles[i].style.cssFloat = "left";
